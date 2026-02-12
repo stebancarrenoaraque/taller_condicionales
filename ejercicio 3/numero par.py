@@ -1,16 +1,17 @@
-# Programa para verificar si un numero es positivo
+# programa para verificar si un numero es par
 
 # Input
 print("------------------------------------")
-print("---------Numero positivo------------")
+print("---------Numero par/impar-----------")
 print("------------------------------------")
 x = int(input("digite un numero: "))
 
 # processing
-if (x>0):
-    rta = "POSITIVO"
+mod = x%2
+if (mod == 0):
+    rta = "PAR"
 else:
-    rta = "NEGATIVO"
+    rta = "IMPAR"
 
 
 # output
